@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:weightSum="1.0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fffffe">
+
+            <Button
+                android:background="@android:color/transparent"
+                android:id="@+id/done"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Ok"
+                android:contentDescription="Ok"
+                android:text="Ok"
+                style="?android:borderlessButtonStyle"/>
+            <Button
+                android:background="@android:color/transparent"
+                android:id="@+id/notinterested"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Not interested"
+                android:contentDescription="Not interested"
+                android:text="Not interested"
+                style="?android:borderlessButtonStyle"/>
+        </LinearLayout>
+
+
+</LinearLayout>
